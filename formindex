@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<title>  Demo Form   </title>
+<link rel="stylesheet" type="text/css" href="cs1.css"/>
+<link rel="javascript" type="text/javascript" href="js1.js"/>
+</head>
+<body>
+<div class="main">
+<div class="m1">
+<h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSIGN UP!!</h1>
+</div>
+<h1 style="color:#661AB2">&nbsp&nbsp&nbsp&nbspWelcome!!!! Sign Up for your account</h1>
+<div class="face"><h2>&nbsp&nbsp&nbspSign up using Facebook!!</h2> </div>
+<div class="face"><h2>&nbsp&nbsp&nbspSign up using Gmail!!</h2> </div><br>
+<h1>&nbsp&nbsp&nbspOr Enter Your Details</h1>
+<div class="n">
+<form>
+<div class="content">
+ <h2> First name:</h2>
+ <div class="box">
+  <input type="text" name="firstname">
+  </div>
+  </div>
+  <div class="content">
+  <h2>Last name:</h2>
+  <div class="box">
+  <input type="text" name="lastname">
+  </div>
+  </div>
+  <div class="content">
+  <h2>Email id</h2>
+  <div class="box">
+  <input type="text" name="Email">
+  </div>
+  </div>
+    <div class="content">
+  <h2>Password</h2>
+  <div class="box">
+  <input type="text" name="pass">
+  </div>
+  </div>
+    <div class="content">
+  <h2>Phone</h2>
+  <div class="box">
+  <input type="text" name="phone">
+  </div>
+  </div>
+   <div class="content">
+  <h2>Gender</h2>
+  <div class="box">
+<input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="female">Female
+  </div>
+  </div>
+</form>
+</div>
+<div class="m">
+<button type="submit" form="form1" value="Submit">Submit</button>
+
+<button type="cancel" form="form1" value="cancel">Cancel</button>
+</div>
+</div>
+</body>
+</html>
