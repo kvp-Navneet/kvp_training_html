@@ -8,13 +8,14 @@ padding:0px;
 .body
 { 
 background-image:url(../images/bg.jpg);
+overflow-x: hidden;
 }
 .head
 {
 width:100%;
 margin:auto;
 background-color:#FF6633;
-
+overflow:hidden;
 
 }
 .head h1
@@ -24,6 +25,13 @@ font:Georgia, "Times New Roman", Times, serif;
 text-shadow:#000033;
 font-size:110px;
 text-align:center;
+}
+.head h1 a
+{
+color:#FFFFFF;
+
+text-decoration:none;
+
 }
 .ser
 {
@@ -59,7 +67,7 @@ background-color:#ff9933;
 width:956px;
 
 border:solid 10px #ff9933;
-margin:0px 0px 0px 184px;
+margin:0px 0px 0px 272px;
 border-bottom:2px solid #FF6633 ;
 float:left;
 }
@@ -84,7 +92,7 @@ color: #FFFFFF;
 padding:15px;
 
 }
-.maindiv ul li a:hover{
+.maindiv ul li a:hover,.maindiv  a.active{
 
 background-color:#FF6633;}
 .middle
@@ -120,7 +128,6 @@ line-height: 25px;
 {
 width:300px;
 border:solid 1px #FFFFFF;
-
 float:left;
 padding:40px;
 background-color:#ff9933;
@@ -163,7 +170,8 @@ background-color:#FF6633;
 border:solid 1px #FF6633;
 float:left;
 color:#FFFFFF;
-text-align:center;
+
+overflow:hidden;
 }
 .avail form {
 margin:30px;
@@ -173,6 +181,17 @@ padding:0px 80px 90px 90px;font-size:.99em;font-weight:bold}
 height:30px;
 text-align:center;border:1px solid #5d3825;background:#FFFFFF;color:#000000;border-radius:5px;
 
+}
+.last
+{
+float:left;
+
+}
+.last1
+{
+float:right;
+
+margin:10px ;
 }
 .avail form textarea {height:150px;width:220px; border-radius:5px;}
 
