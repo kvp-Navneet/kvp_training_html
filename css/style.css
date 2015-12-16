@@ -1,0 +1,181 @@
+
+
+*
+{
+margin:0px;
+padding:0px;
+}
+.body
+{ 
+background-image:url(../images/bg.jpg);
+}
+.head
+{
+width:100%;
+margin:auto;
+background-color:#FF6633;
+
+
+}
+.head h1
+{
+color:#FFFFFF;
+font:Georgia, "Times New Roman", Times, serif;
+text-shadow:#000033;
+font-size:110px;
+text-align:center;
+}
+.ser
+{
+margin:auto;
+}
+.ser h3
+{
+
+color:#000000;
+}
+.ser ul
+{
+margin:20px;
+color:#FFFFFF;
+}
+.ser ul li {
+color:#FFFFFF;
+}
+
+.image
+{
+background-image:url(../images/b1.jpg);
+width:974px;
+height:252px;
+margin:auto;
+border-top:none;
+border: 1px solid #ff9933;
+
+}
+.maindiv{
+
+background-color:#ff9933;
+width:956px;
+
+border:solid 10px #ff9933;
+margin:0px 0px 0px 184px;
+border-bottom:2px solid #FF6633 ;
+float:left;
+}
+.maindiv ul{
+list-style-type:none;
+margin:10px 10px 0px 50px;
+
+}
+
+.maindiv ul li{
+
+background-position: center;
+float:left;
+margin:20px;
+color: #000099;
+
+}
+
+.maindiv ul li a{
+text-decoration:none;
+color: #FFFFFF;
+padding:15px;
+
+}
+.maindiv ul li a:hover{
+
+background-color:#FF6633;}
+.middle
+{
+width:976px;
+border:solid 1px #FFFFFF;
+background-color:#ff9933;
+margin:auto;
+}
+
+.middlecontent
+{
+width:954px;
+border:solid 1px  #ff9933;
+float:left;
+background-color:#ff9933;
+padding:10px;
+border-radius:0px 0px 10px 10px;
+}
+.middlecontent h2
+{color:#FFFFFF;
+font-size:30px;
+text-align:center;
+font:"Times New Roman", Times, serif;
+}
+.p1
+{
+color:#FFFFFF;
+font-size:16px;
+line-height: 25px;
+}
+.service
+{
+width:300px;
+border:solid 1px #FFFFFF;
+
+float:left;
+padding:40px;
+background-color:#ff9933;
+margin-top:10px;
+border-radius:10px;
+
+}
+.service h3
+{
+font-size:40px;
+color:#FFFFFF;
+}
+.service ul li
+{
+padding:20px;
+color:#FFFFFF;
+
+}
+.avail
+{
+width:500px;
+background-color:#ff9933;
+border:solid 1px #FFFFFF;
+border-radius:10px;
+float:left;
+margin:10px 0px 10px 90px;
+
+}
+.avail h4
+{
+color:#FFFFFF;
+text-align:center;
+font-size:40px;
+}
+
+.adress
+{
+width:100%;
+background-color:#FF6633;
+border:solid 1px #FF6633;
+float:left;
+color:#FFFFFF;
+text-align:center;
+}
+.avail form {
+margin:30px;
+margin-top:10px;
+padding:0px 80px 90px 90px;font-size:.99em;font-weight:bold}
+.avail form input {width:220px;
+height:30px;
+text-align:center;border:1px solid #5d3825;background:#FFFFFF;color:#000000;border-radius:5px;
+
+}
+.avail form textarea {height:150px;width:220px; border-radius:5px;}
+
+.avail form .button { width:76px; background-color:#FF0000;font-size:1em}
+
+
