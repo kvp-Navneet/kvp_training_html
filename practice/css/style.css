@@ -1,0 +1,127 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main
+{
+background:#FFF url(../image/white.jpg) no-repeat fixed center top/100% 100%;
+overflow-x:hidden;
+}
+.logo
+{
+width:100%;
+border: 2px solid #CCCCCC;
+border-radius:40px;
+height:300px;
+margin-top :250px;
+
+}
+.logo h1
+{
+text-align:center;
+color:#FF6600;
+
+}
+.para
+{
+color:#000099;
+font-size:19px;
+margin:5px;
+
+}
+.image
+{
+   
+	width:1200px;
+	margin:60px;
+	float:left
+}
+.image img
+{
+border-radius:40px;
+
+}
+.try
+{
+float:left;
+}
+
+.first
+{
+
+width:1335px;
+position:fixed;
+top:0;
+background-image:url(../image/curvy-bag-background.jpgs);
+border-radius:40px;
+
+opacity:0.6;
+float:right;
+}
+.list
+{
+margin:0px 80px;
+list-style-type:none;
+
+}
+a 
+{
+width:100px;
+height:20px;
+background-color:#FFFFFF;
+color:#000000;
+text-decoration:none;
+
+float:left;
+margin-left:5px;
+border-radius:20px;
+text-align:center;
+
+
+}
+a:hover
+{
+background-color:#666666;
+}
